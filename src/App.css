@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Akaya Telivigala", monospace, sans-serif;
+    font-size: 22px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    width: 100%;
+    text-align: center;
+    background-color: #e3e3e3;
+    padding: 10px 0;
+}
+h1{
+    color: #262834;
+    font-size: 28px;
+    padding: 8px;
+}
+.container{
+    width: 96%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #080808;
+    padding: 10px 5px 5px 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.container p{
+    color: #e3e3e3;
+    padding: 5px;
+    text-align: left;
+}
+.container span{
+    color: #e3e3e399;
+    font-size: 16px;
+    text-align: right;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "Dancing Script", "Akaya Telivigala", monospace, sans-serif;
+}
+.btns{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(60px, auto);
+}
+.btns button{
+    padding: 8px;
+    margin: 5px;
+    background-color: #262834;
+    color: #e3e3e3;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-weight: 500;
+}
+.btns button.btn{
+    background-color: #56cbdb;
+    color: #262834;
+    font-weight: bold;
+}
+.btns button:first-of-type{
+    grid-column: 1/1;
+    grid-row: 1;
+}
+.btns button:last-of-type{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
